@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f0;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    max-width: 600px;
+}
+
+h1 {
+    color: #e63946;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.valentine-message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d81b60;
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+
+.hidden {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e63946;
+}
